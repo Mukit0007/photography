@@ -1,0 +1,99 @@
+.animated{
+	animation-duration:2;
+	-webkit-animation-duration:2s;
+	-moz-animation-duration:2s;
+}
+
+.container{
+	overflow: hidden;
+}
+
+header .container{
+	overflow:visible;
+}
+
+/*
+.services-content .row .col-md-4:nth-child(1) .animation
+{
+	animation-delay:0;
+	-webkit-animation-delay:0;
+	-moz-animation-delay:0;
+}
+
+.services-content .row .col-md-4:nth-child(2) .animation
+{
+	animation-delay:0.3s;
+	-webkit-animation-delay:0.3s;
+	-moz-animation-delay:0.3s;
+}
+
+.services-content .row .col-md-4:nth-child(3) .animation
+{
+	animation-delay:0.6s;
+	-webkit-animation-delay:0.6s;
+	-moz-animation-delay:0.6s;
+}
+
+.blog .row .col-md-4:nth-child(2) .animation
+{
+	animation-delay:0.3s;
+	-webkit-animation-delay:0.3s;
+	-moz-animation-delay:0.3s;
+}
+
+.blog .row .col-md-4:nth-child(3) .animation
+{
+	animation-delay:0.6s;
+	-webkit-animation-delay:0.6s;
+	-moz-animation-delay:0.6s;
+}
+
+footer .row .col-md-4:nth-child(2) .animation
+{
+	animation-delay:0.3s;
+	-webkit-animation-delay:0.3s;
+	-moz-animation-delay:0.3s;
+}
+
+footer.row .col-md-4:nth-child(3) .animation
+{
+	animation-delay:0.6s;
+	-webkit-animation-delay:0.6s;
+	-moz-animation-delay:0.6s;
+}
+*/
+
+.services i{
+	transition:all 0.3s ease-in;
+	-webkit-transition:all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+}
+.services i:hover{
+	transform:rotatey(180deg) scale(1.5, 1.5);
+	-webkit-transform:rotatey(180deg) scale(1.5, 1.5);
+	-moz-transform:rotatey(180deg) scale(1.5, 1.5);
+}
+
+.team img{
+	transition:all 0.3s ease-in;
+	-webkit-transition:all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;	
+}
+
+.team li .inner-content{
+	overflow:hidden;
+}
+ 
+.team .inner-content:hover img{
+	transform:scale(1.5, 1.5);
+	-webkit-transform:scale(1.5, 1.5);
+	-moz-transform:scale(1.5, 1.5);	
+}
+
+@media screen and (max-width: 992px){
+	.animation{
+		animation:none;
+		-webkit-animation:none;
+		-moz-animation:none;		
+	}
+}
